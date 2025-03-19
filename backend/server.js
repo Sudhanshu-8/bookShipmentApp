@@ -12,7 +12,7 @@ app.use(express.json()); // Ensure JSON parsing
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Happy@23' // Replace with your password
+  password: 'PASSWORD' // Replace with your password
 });
 
 db.connect((err) => {
